@@ -75,3 +75,11 @@ Dropbox files
 
 `/dbox/.dropbox`
 Dropbox account configuration
+
+## Unsupported Filesystems
+
+sudo apt install build-essential
+cd dropbox-filesystem-fix
+make
+
+

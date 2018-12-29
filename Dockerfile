@@ -44,6 +44,7 @@ RUN mkdir -p /opt/dropbox \
 # Install init script and dropbox command line wrapper
 COPY run /root/
 COPY dropbox /usr/bin/dropbox
+COPY dropbox-filesystem-fix /opt/dropbox-filesystem-fix
 
 WORKDIR /dbox/Dropbox
 EXPOSE 17500
